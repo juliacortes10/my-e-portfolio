@@ -151,3 +151,150 @@ h1 {
         rgba(0,0,0,0.2);
 
 }
+/* HEADER */
+
+header {
+
+    display: flex;
+
+    justify-content:
+        space-between;
+
+    align-items: center;
+
+    padding: 25px 8%;
+
+    background: white;
+
+}
+
+
+header h2 {
+
+    font-size: 18px;
+
+}
+
+
+nav a {
+
+    margin-left: 20px;
+
+    text-decoration: none;
+
+    color: #222;
+
+}
+
+
+/* PORTAL PAGE */
+
+.portal-page {
+
+    min-height: 80vh;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-align: center;
+
+    padding: 40px;
+
+}
+
+
+/* SUBJECT PAGE */
+
+.subjects-page {
+
+    padding: 70px 8%;
+
+}
+
+
+/* SUBJECT GRID */
+
+.subject-grid {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(
+            auto-fit,
+            minmax(230px, 1fr)
+        );
+
+    gap: 25px;
+
+    margin-top: 40px;
+
+}
+
+
+/* SUBJECT CARD */
+
+.subject-card {
+
+    background: white;
+
+    padding: 30px;
+
+    border-radius: 20px;
+
+    text-decoration: none;
+
+    color: #222;
+
+    box-shadow:
+        0 10px 30px
+        rgba(0,0,0,0.08);
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+
+}
+
+
+/* CARD HOVER */
+
+.subject-card:hover {
+
+    transform:
+        translateY(-8px);
+
+    box-shadow:
+        0 20px 40px
+        rgba(0,0,0,0.12);
+
+}
+
+
+/* ICON */
+
+.subject-icon {
+
+    font-size: 45px;
+
+    margin-bottom: 15px;
+
+}
+
+
+.subject-card h2 {
+
+    margin-bottom: 12px;
+
+}
+
+
+.subject-card p {
+
+    line-height: 1.6;
+
+}
