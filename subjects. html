@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>My Subjects</title>
+
+    <link rel="stylesheet"
+          href="css/style.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <h2>MY E-PORTFOLIO</h2>
+
+    <nav>
+
+        <a href="index.html">
+            Home
+        </a>
+
+        <a href="portal.html">
+            Portal
+        </a>
+
+    </nav>
+
+</header>
+
+
+<main class="subjects-page">
+
+    <p class="welcome-text">
+        ACADEMIC PORTAL
+    </p>
+
+    <h1>
+        My Subjects
+    </h1>
+
+    <p>
+        Select a subject to explore
+        my academic work.
+    </p>
+
+
+    <div class="subject-grid">
+
+
+        <a href="web-development.html"
+           class="subject-card">
+
+            <div class="subject-icon">
+                💻
+            </div>
+
+            <h2>
+                Web Development
+            </h2>
+
+            <p>
+                Websites, HTML, CSS
+                and JavaScript.
+            </p>
+
+        </a>
+
+
+        <a href="database.html"
+           class="subject-card">
+
+            <div class="subject-icon">
+                🗄️
+            </div>
+
+            <h2>
+                Database
+            </h2>
+
+            <p>
+                Database design,
+                queries and projects.
+            </p>
+
+        </a>
+
+
+        <a href="programming.html"
+           class="subject-card">
+
+            <div class="subject-icon">
+                👨‍💻
+            </div>
+
+            <h2>
+                Programming
+            </h2>
+
+            <p>
+                Programming activities
+                and projects.
+            </p>
+
+        </a>
+
+
+        <a href="networking.html"
+           class="subject-card">
+
+            <div class="subject-icon">
+                🌐
+            </div>
+
+            <h2>
+                Networking
+            </h2>
+
+            <p>
+                Networking concepts
+                and activities.
+            </p>
+
+        </a>
+
+
+        <a href="research.html"
+           class="subject-card">
+
+            <div class="subject-icon">
+                📚
+            </div>
+
+            <h2>
+                Research
+            </h2>
+
+            <p>
+                Research projects
+                and outputs.
+            </p>
+
+        </a>
+
+
+    </div>
+
+</main>
+
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
